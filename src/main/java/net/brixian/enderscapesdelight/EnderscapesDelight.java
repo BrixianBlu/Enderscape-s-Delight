@@ -2,6 +2,7 @@ package net.brixian.enderscapesdelight;
 
 import net.brixian.enderscapesdelight.block.EnderscapeDelightBlocks;
 import net.brixian.enderscapesdelight.item.EnderscapeDelightItems;
+import net.brixian.enderscapesdelight.item.EnderscapesDelightItemGroup;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class EnderscapesDelight implements ModInitializer {
 		LOGGER.info("Enderscape Delight");
 		EnderscapeDelightItems.registerEDItems();
 		EnderscapeDelightBlocks.registerEDBlocks();
+		EnderscapesDelightItemGroup.registerItemGroups();
 	}
 }

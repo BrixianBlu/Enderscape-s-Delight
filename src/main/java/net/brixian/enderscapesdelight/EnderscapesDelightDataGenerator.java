@@ -1,5 +1,6 @@
 package net.brixian.enderscapesdelight;
 
+import net.brixian.enderscapesdelight.data.ItemTagDatagen;
 import net.brixian.enderscapesdelight.data.ModelDatagen;
 import net.brixian.enderscapesdelight.data.RecipeDatagen;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -11,6 +12,7 @@ public class EnderscapesDelightDataGenerator implements DataGeneratorEntrypoint 
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 		pack.addProvider(RecipeDatagen::new);
 		pack.addProvider(ModelDatagen::new);
+		pack.addProvider(ItemTagDatagen::new);
 
 	}
 }
