@@ -26,8 +26,7 @@ public class EnderscapeDelightItems {
     public static final Item RUSTLE_SOUP = registerItem("rustle_soup", settings -> new Item(settings.food(EnderscapeDelightFood.RUSTLE_SOUP, EnderscapeDelightFood.RUSTLE_SOUP_EFFECT).maxCount(1).useRemainder(Items.BOWL)));
     public static final Item MURUBLIGHT_SOUP = registerItem("murublight_soup", settings -> new Item(settings.food(EnderscapeDelightFood.MURUBLIGHT_SOUP, EnderscapeDelightFood.MURUBLIGHT_SOUP_EFFECT).maxCount(1).useRemainder(Items.BOWL)));
     public static final Item SUBMERGED_TENTACLES = registerItem("submerged_tentacles", settings -> new Item(settings.food(EnderscapeDelightFood.SUBMERGED_TENTACLES).maxCount(1)));
-   //Magnia Pops are not been used at the moment. I am sorry :(
-    public static final Item MAGNIA_GUSHERS = registerItem("magnia_pops", settings -> new Item(settings.food(EnderscapeDelightFood.MAGNIA_GUSHERS, EnderscapeDelightFood.MAGNIA_GUSHERS_EFFECT)));
+    public static final Item MAGNIA_POPS = registerItem("magnia_pops", settings -> new Item(settings.food(EnderscapeDelightFood.MAGNIA_POPS, EnderscapeDelightFood.MAGNIA_POPS_EFFECT)));
     public static final Item VEILED_CHIPS = registerItem("veiled_chips", settings -> new Item(settings.food(EnderscapeDelightFood.VEILED_CHIPS, EnderscapeDelightFood.VEILED_CHIPS_EFFECT)));
     public static final Item HATRED_SOUP = registerItem("hatred_soup", settings -> new Item(settings.food(EnderscapeDelightFood.HATRED_SOUP, EnderscapeDelightFood.HATRED_SOUP_EFFECT).maxCount(1).useRemainder(Items.BOWL)));
 

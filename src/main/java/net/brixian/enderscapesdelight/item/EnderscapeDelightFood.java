@@ -20,7 +20,7 @@ public class EnderscapeDelightFood {
     public static final FoodComponent DOUBLE_GLAZED_GLANGERBERRY = new FoodComponent.Builder().nutrition(8).saturationModifier(1.5f).build();
     public static final FoodComponent FLANGERBERRY_COBBLER = new FoodComponent.Builder().nutrition(7).saturationModifier(1.6f).build();
     public static final FoodComponent DRIFT_TENTACLE_SPAGHETTI = new FoodComponent.Builder().nutrition(6).saturationModifier(1).build();
-    public static final FoodComponent DRIFT_JELLY_SANDWICH = new FoodComponent.Builder().nutrition(4).saturationModifier(0.6f).build();
+    public static final FoodComponent DRIFT_JELLY_SANDWICH = new FoodComponent.Builder().nutrition(6).saturationModifier(0.4f).build();
         public static final ConsumableComponent DRIFT_JELLY_SANDWICH_EFFECT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 300, 0))).build();
     public static final FoodComponent DRIFTER_KEBAB = new FoodComponent.Builder().nutrition(8).saturationModifier(0.3f).build();
         public static final ConsumableComponent DRIFTER_KEBAB_EFFECT = ConsumableComponents.food().consumeEffect(new TeleportRandomlyConsumeEffect()).build();
@@ -34,8 +34,8 @@ public class EnderscapeDelightFood {
     public static final FoodComponent SUBMERGED_TENTACLES = new FoodComponent.Builder().nutrition(6).saturationModifier(0.44f).build();
     public static final FoodComponent VEILED_CHIPS = new FoodComponent.Builder().nutrition(2).saturationModifier(0.1f).build();
         public static final ConsumableComponent VEILED_CHIPS_EFFECT = ConsumableComponents.food().consumeSeconds(0.7f).build();
-    public static final FoodComponent MAGNIA_GUSHERS = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
-        public static final ConsumableComponent MAGNIA_GUSHERS_EFFECT = ConsumableComponents.food().consumeSeconds(0.6f).build();
+    public static final FoodComponent MAGNIA_POPS = new FoodComponent.Builder().nutrition(2).saturationModifier(0.2f).build();
+        public static final ConsumableComponent MAGNIA_POPS_EFFECT = ConsumableComponents.food().consumeSeconds(0.6f).build();
     public static final FoodComponent HATRED_SOUP = new FoodComponent.Builder().nutrition(1).saturationModifier(0.01f).build();
         public static final ConsumableComponent HATRED_SOUP_EFFECT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(List.of(new StatusEffectInstance(StatusEffects.POISON, 400, 0), new StatusEffectInstance(StatusEffects.WEAKNESS, 400, 1), new StatusEffectInstance(StatusEffects.NAUSEA, 400, 0), new StatusEffectInstance(StatusEffects.BLINDNESS, 400, 0)))).build();
 
