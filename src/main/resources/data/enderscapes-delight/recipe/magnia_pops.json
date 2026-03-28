@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "enderscape:blistered_magnia"
+  ],
+  "result": {
+    "count": 9,
+    "id": "enderscapes-delight:magnia_pops"
+  }
+}

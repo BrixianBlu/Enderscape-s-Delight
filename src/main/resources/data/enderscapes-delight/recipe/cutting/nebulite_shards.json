@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "enderscape:nebulite"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 4,
+        "id": "enderscape:nebulite_shards"
+      }
+    }
+  ],
+  "tool": {
+    "fabric:type": "farmersdelight:item_ability",
+    "action": "axe_dig"
+  }
+}
