@@ -37,6 +37,15 @@ public class RecipeDatagen extends FabricRecipeProvider {
                       .input('T', EnderscapeDelightItems.DRIFTER_TENTACLES)
                       .criterion(hasItem(EnderscapeDelightItems.DRIFTER_TENTACLES), conditionsFromItem(EnderscapeDelightItems.DRIFTER_TENTACLES))
                       .offerTo(exporter);
+              createShaped(RecipeCategory.FOOD, EnderscapeDelightItems.ENDER_ESCAPE)
+                      .pattern("TCR")
+                      .pattern(" S ")
+                      .input('S', Items.BOWL)
+                      .input('C', Items.CHORUS_FRUIT)
+                      .input('T', EnderscapeDelightItems.DRIFTER_TENTACLES)
+                      .input('R', EnderscapeDelightItems.COOKED_RUSTLE_SLICE)
+                      .criterion(hasItem(EnderscapeDelightItems.DRIFTER_TENTACLES), conditionsFromItem(EnderscapeDelightItems.DRIFTER_TENTACLES))
+                      .offerTo(exporter);
               createShaped(RecipeCategory.MISC, EnderscapeDelightBlocks.CHORUS_FRUIT_CRATE)
                       .pattern("CCC")
                       .pattern("CCC")
@@ -44,8 +53,100 @@ public class RecipeDatagen extends FabricRecipeProvider {
                       .input('C', Items.CHORUS_FRUIT)
                       .criterion(hasItem(Items.CHORUS_FRUIT), conditionsFromItem(Items.CHORUS_FRUIT))
                       .offerTo(exporter);
+              createShaped(RecipeCategory.FOOD, EnderscapeDelightBlocks.FLANGER_BERRY_COBBLER)
+                      .pattern("SS")
+                      .pattern("SS")
+                      .input('S', EnderscapeDelightItems.FLANGER_BERRY_COBBLER_SLICE)
+                      .criterion(hasItem(EnderscapeDelightItems.FLANGER_BERRY_COBBLER_SLICE), conditionsFromItem(EnderscapeDelightItems.FLANGER_BERRY_COBBLER_SLICE))
+                      .offerTo(exporter);
 
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_BRICKS, 4)
+                      .pattern("RR ")
+                      .pattern("RR ")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_CHITIN_SLAB, 6)
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_CHITIN_STAIRS, 4)
+                      .pattern("R  ")
+                      .pattern("RR ")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_CHITIN_WALL, 6)
+                      .pattern("RRR")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK))
+                      .offerTo(exporter);
 
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_BRICKS_SLAB, 6)
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_BRICKS))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_BRICKS_STAIRS, 4)
+                      .pattern("R  ")
+                      .pattern("RR ")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_BRICKS))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.RUBBLE_BRICKS_WALL, 6)
+                      .pattern("RRR")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.RUBBLE_BRICKS))
+                      .offerTo(exporter);
+
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS, 4)
+                      .pattern("RR ")
+                      .pattern("RR ")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_SLAB, 6)
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_STAIRS, 4)
+                      .pattern("R  ")
+                      .pattern("RR ")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_WALL, 6)
+                      .pattern("RRR")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE))
+                      .offerTo(exporter);
+
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_SLAB, 6)
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_STAIRS, 4)
+                      .pattern("R  ")
+                      .pattern("RR ")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS))
+                      .offerTo(exporter);
+              createShaped(RecipeCategory.BUILDING_BLOCKS, EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_WALL, 6)
+                      .pattern("RRR")
+                      .pattern("RRR")
+                      .input('R', EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS)
+                      .criterion(hasItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS), conditionsFromItem(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS))
+                      .offerTo(exporter);
           }
       };
     }

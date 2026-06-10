@@ -3,9 +3,9 @@
 	"id": "enderscapes-delight",
 	"version": "${version}",
 	"name": "Enderscape's Delight",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Enderscape's Delight is a addon mod for both Enderscape and Farmer's Delight Refabricated. It adds crates for existing End & Enderscape crops, New Enderscape themed foods, and Reworked drops for The mobs of Enderscape.",
 	"authors": [
-		"Me!"
+		"Brixian"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",

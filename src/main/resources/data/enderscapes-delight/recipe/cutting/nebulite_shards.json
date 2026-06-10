@@ -1,9 +1,7 @@
 {
   "type": "farmersdelight:cutting",
   "ingredients": [
-    {
-      "item": "enderscape:nebulite"
-    }
+    "enderscape:nebulite"
   ],
   "result": [
     {

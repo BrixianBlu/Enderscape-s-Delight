@@ -22,5 +22,6 @@ public class EnderscapesDelight implements ModInitializer {
 		EnderscapeDelightItems.registerEDItems();
 		EnderscapeDelightBlocks.registerEDBlocks();
 		EnderscapesDelightItemGroup.registerItemGroups();
+		EntityTypesRegistry.register();
 	}
 }

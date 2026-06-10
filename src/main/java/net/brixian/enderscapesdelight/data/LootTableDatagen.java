@@ -14,8 +14,31 @@ public class LootTableDatagen extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(EnderscapeDelightBlocks.CHORUS_FRUIT_CRATE);
         addDrop(EnderscapeDelightBlocks.MURUBLIGHT_BRACKET_CRATE);
+        addDrop(EnderscapeDelightBlocks.CHORUS_FRUIT_CRATE);
         addDrop(EnderscapeDelightBlocks.FLANGER_BERRY_CRATE);
+        addDrop(EnderscapeDelightBlocks.MURUBLIGHT_CABINET);
+        addDrop(EnderscapeDelightBlocks.CELESTIAL_CABINET);
+        addDrop(EnderscapeDelightBlocks.VEILED_CABINET);
+
+        addDrop(EnderscapeDelightBlocks.RUBBLE_CHITIN_BLOCK);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_CHITIN_STAIRS);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_CHITIN_SLAB);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_CHITIN_WALL);
+
+        addDrop(EnderscapeDelightBlocks.RUBBLE_BRICKS);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_BRICKS_STAIRS);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_BRICKS_SLAB);
+        addDrop(EnderscapeDelightBlocks.RUBBLE_BRICKS_WALL);
+
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_STAIRS);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_SLAB);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_WALL);
+
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_STAIRS);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_SLAB);
+        addDrop(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_WALL);
     }
 }
