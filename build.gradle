@@ -17,7 +17,19 @@ repositories {
 	maven {
 		name = "Cassian's Maven"
 		url = 'https://maven.cassian.cc'
-	}}
+	}
+
+	maven {
+		// Farmer's Delight Refabricated. Tops out at 26.2-3.6.7 here; newer releases are
+		// Modrinth-only (https://api.modrinth.com/maven, group maven.modrinth).
+		name = "Greenhouse Maven"
+		url = 'https://maven.greenhouse.lgbt/releases/'
+		content {
+			includeGroup "vectorwing"
+		}
+	}
+}
+
 fabricApi {
 	configureDataGeneration {
 		client = true
@@ -45,7 +57,7 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach {
-	it.options.release = 1
+	it.options.release = 25
 }
 
 java {
