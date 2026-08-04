@@ -20,6 +20,7 @@ public class ItemTagDatagen extends FabricTagProvider.ItemTagProvider {
                 .add(EnderscapeDelightItems.COOKED_RUSTLE_SLICE)
                 .add(EnderscapeDelightItems.DRIFTER_TENTACLES)
                 .add(EnderscapeDelightItems.RUSTLE_SLICE);
-
+        valueLookupBuilder(ItemTags.TRIM_MATERIALS)
+                .add(EnderscapeDelightItems.MAGNIA_POPS);
     }
 }

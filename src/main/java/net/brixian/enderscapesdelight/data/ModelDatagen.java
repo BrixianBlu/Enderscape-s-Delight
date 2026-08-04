@@ -32,6 +32,7 @@ public class ModelDatagen extends FabricModelProvider {
         DuskRubbleBricksBlocks.stairs(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_STAIRS);
         DuskRubbleBricksBlocks.wall(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_WALL);
         DuskRubbleBricksBlocks.slab(EnderscapeDelightBlocks.DUSK_RUBBLE_BRICKS_SLAB);
+        blockStateModelGenerator.registerSimpleCubeAll(EnderscapeDelightBlocks.CHISELED_DUSK_RUBBLE);
 
     }
 

@@ -51,7 +51,7 @@ public class EnderscapeDelightBlocks {
     public static Block DUSK_RUBBLE_SLAB = registerBlock("dusk_rubble_slab", properties -> new SlabBlock(properties.strength(2f, 3f)), AbstractBlock.Settings.create());
     public static Block DUSK_RUBBLE_STAIRS = registerBlock("dusk_rubble_stairs", properties -> new StairsBlock(EnderscapeDelightBlocks.RUBBLE_BRICKS.getDefaultState(), properties.strength(2f, 3f)), AbstractBlock.Settings.create());
     public static Block DUSK_RUBBLE_WALL = registerBlock("dusk_rubble_wall", properties -> new WallBlock(properties.strength(2f, 3f)), AbstractBlock.Settings.create());
-
+    public static Block CHISELED_DUSK_RUBBLE = registerBlock("chiseled_dusk_rubble", properties -> new Block(properties.strength(2f, 3f)), AbstractBlock.Settings.create());
     //Cabinets
     public static Block CELESTIAL_CABINET = registerBlock("celestial_cabinet", CabinetBlock::new, AbstractBlock.Settings.copy(Blocks.BARREL));
     public static Block MURUBLIGHT_CABINET = registerBlock("murublight_cabinet", CabinetBlock::new, AbstractBlock.Settings.copy(Blocks.BARREL));

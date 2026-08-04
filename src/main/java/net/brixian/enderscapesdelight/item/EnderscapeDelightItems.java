@@ -36,7 +36,7 @@ public class EnderscapeDelightItems {
     public static final Item ENDER_ESCAPE = registerItem("ender_escape", settings -> new Item(settings.food(EnderscapeDelightFood.ENDER_ESCAPE).maxCount(16).useRemainder(Items.BOWL)));
     public static final Item STUFFED_FLANGER_BERRY = registerItem("stuffed_flanger_berry", settings -> new Item(settings.food(EnderscapeDelightFood.STUFFED_FLANGER_BERRY, EnderscapeDelightFood.STUFFED_FLANGER_BERRY_EFFECT).maxCount(16).useRemainder(Items.BOWL)));
     public static final Item FLANGER_BERRY_COBBLER_SLICE = registerItem("flanger_berry_cobbler_slice", settings -> new Item(settings.food(EnderscapeDelightFood.FLANGER_BERRY_COBBLER_SLICE)));
-
+    public static final Item RUSTLE = registerItem("rustle", settings -> new Item(settings.food(EnderscapeDelightFood.FLANGER_BERRY_TEA)));
     //Unused
     public static final Item RUBBLE_PLATE = registerItem("rubble_plate", Item::new);
     public static final Item CHORUS_CUP = registerItem("chorus_cup", Item::new);

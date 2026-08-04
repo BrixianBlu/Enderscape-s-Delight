@@ -1,8 +1,9 @@
 {
-  "parent": "farmersdelight:block/template_pie",
+  "parent": "farmersdelight:block/pie",
   "textures": {
+    "particle": "enderscapes-delight:block/flanger_berry_cobbler_top",
     "bottom": "farmersdelight:block/pie_bottom",
     "side": "farmersdelight:block/pie_side",
-    "top": "enderscapes-delight:block/flanger_berry_cobbler_top"
+    "top":"enderscapes-delight:block/flanger_berry_cobbler_top"
   }
 }
