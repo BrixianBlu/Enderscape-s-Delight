@@ -9,8 +9,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
 import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.block.PieBlock;
 import vectorwing.farmersdelight.common.registry.ModBlocks;
@@ -61,20 +64,39 @@ public class EnderscapeDelightBlocks {
     public static Block FLANGER_BERRY_COBBLER = registerBlock("flanger_berry_cobbler", properties -> new PieBlock(properties, () -> EnderscapeDelightItems.DRIFTER_KEBAB), AbstractBlock.Settings.create());
     public static Block STUFFED_FLANGER_BERRY_BLOCK = registerBlock("stuffed_flanger_berry_block", properties ->  new FeastBlock(properties, () -> (Item) EnderscapeDelightItems.STUFFED_FLANGER_BERRY, false), AbstractBlock.Settings.copy(Blocks.CAKE));
 
-    private static Block registerBlock(String name, Function<AbstractBlock.Settings, Block> function, AbstractBlock.Settings settings) {
-        Block toRegister = function.apply(AbstractBlock.Settings.create().registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(EnderscapesDelight.MOD_ID, name))));
+    private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function, Component... tooltips) {
+        Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name))));
+        registerBlockItem(name, toRegister, tooltips);
+        return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name), toRegister);
+    }
+
+    private static void registerBlockItem(String name, Block block, Component... tooltips) {
+        Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name),
+                new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix()
+                        .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name)))) {
+                    @Override
+                    public void appendHoverText(ItemStack itemStack, TooltipContext context, TooltipDisplay display, Consumer<Component> builder, TooltipFlag tooltipFlag) {
+                        for(var component : tooltips) {
+                            builder.accept(component);
+                        }
+                        super.appendHoverText(itemStack, context, display, builder, tooltipFlag);
+                    }
+                });
+    }
+
+    private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {
+        Block toRegister = function.apply(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name))));
         registerBlockItem(name, toRegister);
-        return Registry.register(Registries.BLOCK, Identifier.of(EnderscapesDelight.MOD_ID, name), toRegister);
+        return Registry.register(BuiltInRegistries.BLOCK, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name), toRegister);
     }
 
     private static void registerBlockItem(String name, Block block) {
-        Registry.register(Registries.ITEM, Identifier.of(EnderscapesDelight.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().useBlockPrefixedTranslationKey()
-                        .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(EnderscapesDelight.MOD_ID, name)))));
+        Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name),
+                new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix()
+                        .setId(ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(TutorialMod.MOD_ID, name)))));
     }
 
-    public static void registerEDBlocks() {
-        EnderscapesDelight.LOGGER.info("Registering Mod Blocks for " + EnderscapesDelight.MOD_ID);
+    public static void registerModBlocks() {
+        TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
     }
 }
-
