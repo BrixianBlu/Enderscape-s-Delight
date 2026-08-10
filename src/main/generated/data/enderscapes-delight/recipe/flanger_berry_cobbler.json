@@ -1,15 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "group": "flanger_berry_cobbler",
   "key": {
-    "S": "enderscapes-delight:flanger_berry_cobbler_slice"
+    "C": "farmersdelight:pie_crust",
+    "P": "enderscape:puruberry",
+    "S": "minecraft:sugar",
+    "W": "minecraft:wheat"
   },
   "pattern": [
-    "SS",
-    "SS"
+    " W ",
+    "PPP",
+    "SCS"
   ],
   "result": {
-    "count": 1,
     "id": "enderscapes-delight:flanger_berry_cobbler"
   }
 }

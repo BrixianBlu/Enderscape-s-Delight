@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "rubble_bricks_blocks",
   "key": {
-    "R": "enderscapes-delight:rubble_bricks"
+    "#": "enderscapes-delight:rubble_bricks"
   },
   "pattern": [
-    "R  ",
-    "RR ",
-    "RRR"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
     "count": 4,

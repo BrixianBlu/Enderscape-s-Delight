@@ -1,16 +1,15 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "building",
   "key": {
-    "C": "minecraft:chorus_fruit"
+    "#": "minecraft:chorus_fruit"
   },
   "pattern": [
-    "CCC",
-    "CCC",
-    "CCC"
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 1,
     "id": "enderscapes-delight:chorus_fruit_crate"
   }
 }

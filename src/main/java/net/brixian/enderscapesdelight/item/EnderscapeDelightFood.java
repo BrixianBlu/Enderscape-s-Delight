@@ -6,6 +6,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.penumbra.enderscape.registry.entity.EnderscapeMobEffects;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 import net.minecraft.world.item.consume_effects.TeleportRandomlyConsumeEffect;
 
@@ -18,12 +19,12 @@ public class EnderscapeDelightFood {
     public static final FoodProperties COOKED_RUSTLE_SLICE = new FoodProperties.Builder().nutrition(7).saturationModifier(0.5f).build();
         public static final Consumable  COOKED_RUSTLE_SLICE_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.POISON, 80, 0))).build();
     public static final FoodProperties GLAZED_FLANGERBERRY = new FoodProperties.Builder().nutrition(6).saturationModifier(1.4f).build();
-    public static final FoodProperties DOUBLE_GLAZED_GLANGERBERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(1.5f).build();
-    public static final FoodProperties FLANGERBERRY_COBBLER = new FoodProperties.Builder().nutrition(7).saturationModifier(1.6f).build();
+    public static final FoodProperties DOUBLE_GLAZED_PURUBERRY = new FoodProperties.Builder().nutrition(8).saturationModifier(1.5f).build();
+        public static final Consumable DOUBLED_GLAZED_PURUBERRY_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.VOID_PURIFICATION, 2400, 0))).build();
     public static final FoodProperties DRIFT_TENTACLE_SPAGHETTI = new FoodProperties.Builder().nutrition(6).saturationModifier(1).build();
     public static final Consumable  DRIFT_TENTACLE_SPAGHETTI_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(ModEffects.NOURISHMENT, 1300, 0))).build();
     public static final FoodProperties DRIFT_JELLY_SANDWICH = new FoodProperties.Builder().nutrition(6).saturationModifier(0.4f).build();
-        public static final Consumable  DRIFT_JELLY_SANDWICH_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 300, 0))).build();
+        public static final Consumable  DRIFT_JELLY_SANDWICH_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.LOW_GRAVITY, 300, 0))).build();
     public static final FoodProperties DRIFTER_KEBAB = new FoodProperties.Builder().nutrition(8).saturationModifier(0.3f).build();
         public static final Consumable  DRIFTER_KEBAB_EFFECT = Consumables.defaultFood().onConsume(new TeleportRandomlyConsumeEffect()).build();
     public static final FoodProperties DRIFT_JELLY_THUMB_COOKIE = new FoodProperties.Builder().nutrition(6).saturationModifier(0.6f).alwaysEdible().build();
@@ -43,12 +44,20 @@ public class EnderscapeDelightFood {
     public static final FoodProperties RUBBLEMITE_ESCARGOT = new FoodProperties.Builder().nutrition(6).saturationModifier(1.3f).build();
         public static final Consumable  RUBBLEMITE_ESCARGOT_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.RESISTANCE, 600, 1))).build();
    public static final FoodProperties DRIFT_GELATIN = new FoodProperties.Builder().nutrition(8).saturationModifier(1f).build();
-        public static final Consumable  DRIFT_GELATIN_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.JUMP_BOOST, 800, 1))).build();
+        public static final Consumable  DRIFT_GELATIN_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.LOW_GRAVITY, 800, 0))).build();
     public static final FoodProperties ENDER_ESCAPE = new FoodProperties.Builder().nutrition(12).saturationModifier(1f).build();
     public static final FoodProperties FLANGER_BERRY_COBBLER_SLICE = new FoodProperties.Builder().nutrition(7).saturationModifier(1.4f).build();
+        public static final Consumable FLANGER_BERRY_COBBLER_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.VOID_PURIFICATION, 600, 0))).build();
     public static final FoodProperties STUFFED_FLANGER_BERRY = new FoodProperties.Builder().nutrition(14).saturationModifier(0.75f).build();
         public static final Consumable  STUFFED_FLANGER_BERRY_EFFECT = Consumables.defaultFood().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(ModEffects.COMFORT, 1200, 0 ))).build();
-
+    public static final FoodProperties BLINKING_PUNCH = new FoodProperties.Builder().nutrition(6).saturationModifier(0.4f).build();
+        public static final Consumable BLINKING_PUNCH_EFFECT = Consumables.defaultDrink().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.VOID_CORRUPTION, 10, 0))).build();
+    public static final FoodProperties ENLIGHTENED_PUNCH = new FoodProperties.Builder().nutrition(6).saturationModifier(0.4f).build();
+        public static final Consumable ENLIGHTENED_PUNCH_EFFECT = Consumables.defaultDrink().onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.VOID_PURIFICATION, 600, 0))).build();
+    public static final FoodProperties DRIFT_GUMMY = new FoodProperties.Builder().nutrition(4).saturationModifier(0.6f).build();
+    public static final Consumable  DRIFT_GUMMY_EFFECT = Consumables.defaultFood().consumeSeconds(0.6f).onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(EnderscapeMobEffects.LOW_GRAVITY, 140, 0))).build();
+    public static final FoodProperties CHORUS_CAKE_ROLL_SLICE = new FoodProperties.Builder().nutrition(2).saturationModifier(0).build();
+    public static final Consumable  CHORUS_CAKE_ROLL_EFFECT = Consumables.defaultFood().onConsume(new TeleportRandomlyConsumeEffect()).build();
 
 
 

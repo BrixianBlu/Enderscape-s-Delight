@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_flanger_berry_cobbler_slice": {
+    "has_puruberry": {
       "conditions": {
         "items": [
           {
-            "items": "enderscapes-delight:flanger_berry_cobbler_slice"
+            "items": "enderscape:puruberry"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_flanger_berry_cobbler_slice"
+      "has_puruberry"
     ]
   ],
   "rewards": {

@@ -11,6 +11,18 @@ base {
 }
 
 repositories {
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = "https://api.modrinth.com/maven"
+			}
+		}
+		// forRepositories(fg.repository) // Uncomment when using ForgeGradle
+		filter {
+			includeGroup "maven.modrinth"
+		}
+	}
 	mavenCentral()
 	maven { url 'https://jitpack.io' }
 
@@ -41,7 +53,14 @@ dependencies {
 		exclude(group: "net.fabricmc")
 	}
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-
+	//Enderscape
+	implementation "maven.modrinth:btCrWvHr:4DwOA1hE"
+	//YACL
+	implementation "maven.modrinth:1eAoo2KR:cnfPzuFU"
+	//Trimpatcher
+	implementation "maven.modrinth:bNK1MS7o:VwpMfwIb"
+	//Lithostiched
+	implementation "maven.modrinth:XaDC71GB:vVFCOh7u"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.

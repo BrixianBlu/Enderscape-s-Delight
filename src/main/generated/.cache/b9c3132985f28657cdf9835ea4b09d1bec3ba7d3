@@ -1,5 +1,9 @@
-// 1.21.11	-999999999-01-01T00:00:00	Enderscape's Delight/Tags for minecraft:block
-a80010fc737c3abd9b521e53829a8405f43344ed data/minecraft/tags/block/mineable/axe.json
+// 26.2	-999999999-01-01T00:00:00	Enderscape's Delight/Tags for minecraft:block
+f6d6e4690c0dfc737ba4d3326fdc20fe912d948c data/enderscape/tags/block/celestial_wood_blocks.json
+e4ea457a488a17f366499d4bfa51147a4c52ab27 data/enderscape/tags/block/murublight_wood_blocks.json
+26be7942637ed5d327c750896d1b2aa782562df4 data/enderscape/tags/block/veiled_wood_blocks.json
+22636234060926ff325336e99db4c62eed6768a8 data/enderscape/tags/block/void_fire_base_blocks.json
+169dc8521d676d4f1145465e4e2c3b8f1680807b data/minecraft/tags/block/mineable/axe.json
 1aa24da052df6ccded78d601ebdb883f09343464 data/minecraft/tags/block/mineable/pickaxe.json
 f7328f37651ce81d5e78db3721d249d0ba3051bd data/minecraft/tags/block/slabs.json
 ea52dc70a2195b2cb7b71d956812271139bf0e4c data/minecraft/tags/block/stairs.json

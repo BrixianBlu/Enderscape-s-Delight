@@ -3,10 +3,10 @@
 "item.enderscapes-delight.drifter_tentacles": "Drifter Tentacles",
   "item.enderscapes-delight.rustle_slice": "Rustle Slice",
   "item.enderscapes-delight.cooked_rustle_slice": "Cooked Rustle Slice",
-  "item.enderscapes-delight.glazed_flanger_berry": "Glazed Flanger Berry",
-  "item.enderscapes-delight.double_glazed_flanger_berry": "Double Glazed Flanger Berry",
-  "block.enderscapes-delight.flanger_berry_cobbler": "Flanger Berry Cobbler",
-  "item.enderscapes-delight.flanger_berry_cobbler_slice": "Slice of Flanger Berry Cobbler",
+  "item.enderscapes-delight.glazed_flanger_berry": "Glazed Puruerry",
+  "item.enderscapes-delight.double_glazed_flanger_berry": "Double Glazed Puruerry",
+  "block.enderscapes-delight.flanger_berry_cobbler": "Puruberry Cobbler",
+  "item.enderscapes-delight.flanger_berry_cobbler_slice": "Slice of Puruberry Cobbler",
   "item.enderscapes-delight.drifter_tentacle_spaghetti": "Drifter Tentacle Spaghetti",
   "item.enderscapes-delight.drift_jelly_sandwich": "Drift Jelly Sandwich",
   "item.enderscapes-delight.drifter_kebab": "Drifter Kebab",
@@ -21,11 +21,18 @@
   "item.enderscapes-delight.ender_escape": "Ender Escape",
   "item.enderscapes-delight.rubblemite_escargot": "Rubblemite Escargot",
   "item.enderscapes-delight.drift_gelatin": "Drift Gelatin",
-  "item.enderscapes-delight.stuffed_flanger_berry": "Bowl of Stuffed Flanger Berry",
+  "item.enderscapes-delight.blinking_punch": "Blinking Punch",
+  "item.enderscapes-delight.enlightened_punch": "Enlightened Punch",
+  "item.enderscapes-delight.chorus_cake_roll_slice": "Slice of Chorus Cake Roll",
+  "item.enderscapes-delight.drift_gummy": "Drift Gummy",
+  "item.enderscapes-delight.stuffed_flanger_berry": "Bowl of Stuffed Puruberry",
+
+
+
 
 
   "block.enderscapes-delight.chorus_fruit_crate": "Chorus Fruit Crate",
-  "block.enderscapes-delight.flanger_berry_crate": "Flanger Berry Crate",
+  "block.enderscapes-delight.flanger_berry_crate": "Puruberry Crate",
   "block.enderscapes-delight.murublight_bracket_crate": "Murublight Bracket Crate",
   "block.enderscapes-delight.celestial_cabinet": "Celestial Cabinet",
   "block.enderscapes-delight.murublight_cabinet": "Murublight Cabinet",
@@ -46,7 +53,8 @@
   "block.enderscapes-delight.dusk_rubble_bricks_stairs": "Dusk Rubble Brick Stairs",
   "block.enderscapes-delight.dusk_rubble_bricks_slab": "Dusk Rubble Brick Slab",
   "block.enderscapes-delight.dusk_rubble_bricks_wall": "Dusk Rubble Brick Wall",
-  "block.enderscapes-delight.stuffed_flanger_berry_block": "Stuffed Flanger Berry",
+  "block.enderscapes-delight.stuffed_flanger_berry_block": "Stuffed Puruberry",
+  "block.enderscapes-delight.rubble_lantern": "Rubble Lantern",
 
   "itemgroup.enderscapes-delight.enderscapes_delight_items": "Enderscape's Delight",
   "item.enderscapes-delight.mystery_nugget": "Mystery Nugget"

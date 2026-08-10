@@ -19,9 +19,9 @@ public class EnderscapesDelight implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Enderscape Delight");
-		EnderscapeDelightItems.registerEDItems();
-		EnderscapeDelightBlocks.registerEDBlocks();
-		EnderscapesDelightItemGroup.registerItemGroups();
+		EnderscapeDelightItems.registerEDModItems();
+		EnderscapeDelightBlocks.registerModBlocks();
+		EnderscapesDelightItemGroup.registerEDModCreativeModeTabs();
 		EntityTypesRegistry.register();
 	}
 }

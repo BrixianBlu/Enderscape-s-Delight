@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "building",
+  "group": "rubble_chitin_blocks",
   "key": {
-    "R": "enderscapes-delight:rubble_chitin_block"
+    "#": "enderscapes-delight:rubble_chitin_block"
   },
   "pattern": [
-    "R  ",
-    "RR ",
-    "RRR"
+    "#  ",
+    "## ",
+    "###"
   ],
   "result": {
     "count": 4,

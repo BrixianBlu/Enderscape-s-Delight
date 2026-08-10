@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "group": "drifter_kebab",
   "key": {
     "C": "minecraft:chorus_fruit",
     "S": "minecraft:stick",
@@ -12,7 +12,6 @@
     "S  "
   ],
   "result": {
-    "count": 1,
     "id": "enderscapes-delight:drifter_kebab"
   }
 }

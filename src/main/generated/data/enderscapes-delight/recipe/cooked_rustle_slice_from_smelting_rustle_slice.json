@@ -1,7 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
-  "cookingtime": 200,
+  "category": "blocks",
   "experience": 0.25,
   "group": "cooked_rustle_slice",
   "ingredient": "enderscapes-delight:rustle_slice",
