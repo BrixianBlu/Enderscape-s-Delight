@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "shadolined_chorus_fruit",
+  "key": {
+    "C": "minecraft:chorus_fruit",
+    "S": "enderscape:shadoline_ingot"
+  },
+  "pattern": [
+    "SSS",
+    "SCS",
+    "SSS"
+  ],
+  "result": {
+    "id": "enderscapes-delight:shadolined_chorus_fruit"
+  }
+}

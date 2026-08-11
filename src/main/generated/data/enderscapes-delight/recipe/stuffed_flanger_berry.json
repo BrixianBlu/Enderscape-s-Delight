@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "enderscape:ripe_puruberry_block"
+  },
+  "experience": 200.0,
+  "ingredients": [
+    "farmersdelight:onion",
+    "farmersdelight:rice",
+    "minecraft:brown_mushroom",
+    "enderscape:rubble_chitin",
+    "minecraft:potato",
+    "minecraft:carrot"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "enderscapes-delight:stuffed_flanger_berry_block"
+  }
+}

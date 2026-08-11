@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_glazed_flanger_berry": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enderscapes-delight:glazed_flanger_berry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "enderscapes-delight:double_glazed_flanger_berry"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_glazed_flanger_berry"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enderscapes-delight:double_glazed_flanger_berry"
+    ]
+  }
+}

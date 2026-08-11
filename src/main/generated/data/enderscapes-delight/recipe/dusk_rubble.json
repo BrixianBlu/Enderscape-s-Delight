@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dusk_rubble_blocks",
+  "key": {
+    "R": "enderscape:rubble_chitin",
+    "S": "enderscape:shadoline_ingot"
+  },
+  "pattern": [
+    "SR ",
+    "RS "
+  ],
+  "result": {
+    "count": 4,
+    "id": "enderscapes-delight:dusk_rubble"
+  }
+}

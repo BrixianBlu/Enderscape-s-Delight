@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "flanger_berry_cobbler_unsliced",
+  "key": {
+    "S": "enderscapes-delight:flanger_berry_cobbler_slice"
+  },
+  "pattern": [
+    "SS ",
+    "SS "
+  ],
+  "result": {
+    "id": "enderscapes-delight:flanger_berry_cobbler"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "murublight_cabinet",
+  "key": {
+    "P": "enderscape:murublight_planks",
+    "T": "enderscape:murublight_trapdoor"
+  },
+  "pattern": [
+    "PPP",
+    "T T",
+    "PPP"
+  ],
+  "result": {
+    "id": "enderscapes-delight:murublight_cabinet"
+  }
+}

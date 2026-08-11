@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "rubble_lantern",
+  "key": {
+    "M": "enderscapes-delight:magnia_pops",
+    "R": "enderscape:rubble_chitin"
+  },
+  "pattern": [
+    "RMR",
+    "M M",
+    "RMR"
+  ],
+  "result": {
+    "id": "enderscapes-delight:rubble_lantern"
+  }
+}
