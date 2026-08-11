@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enderscape:puruberry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "enderscapes-delight:stuffed_flanger_berry"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_any_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enderscapes-delight:stuffed_flanger_berry"
+    ]
+  }
+}

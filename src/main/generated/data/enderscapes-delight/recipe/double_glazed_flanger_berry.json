@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "double_glazed_puruberry",
+  "ingredients": [
+    "enderscapes-delight:glazed_flanger_berry",
+    "enderscape:drift_jelly_bottle"
+  ],
+  "result": {
+    "id": "enderscapes-delight:double_glazed_flanger_berry"
+  }
+}

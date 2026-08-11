@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_any_ingredient": {
+      "conditions": {
+        "items": [
+          {
+            "items": "enderscapes-delight:cooked_rustle_slice"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "enderscapes-delight:rustle_soup_cooking_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_any_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "enderscapes-delight:rustle_soup_cooking_recipe"
+    ]
+  }
+}

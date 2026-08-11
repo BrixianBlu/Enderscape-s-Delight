@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "experience": 200.0,
+  "ingredients": [
+    "enderscape:nebulite_shards",
+    "enderscape:murublight_bracket",
+    "enderscape:void_lachryma_bucket",
+    "enderscapes-delight:rustle_slice"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "enderscapes-delight:hatred_soup"
+  }
+}

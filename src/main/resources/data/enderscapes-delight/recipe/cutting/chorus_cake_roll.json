@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "enderscape:chorus_cake_roll"
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 7,
+        "id": "enderscapes-delight:chorus_cake_roll_slice"
+      }
+    }
+  ],
+  "tool": "#c:tools/knife"
+}

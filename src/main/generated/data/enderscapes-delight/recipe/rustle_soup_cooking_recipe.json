@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "experience": 200.0,
+  "ingredients": [
+    "enderscapes-delight:murublight_soup",
+    "enderscapes-delight:cooked_rustle_slice"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "enderscapes-delight:rustle_soup"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "veiled_cabinet",
+  "key": {
+    "P": "enderscape:veiled_planks",
+    "T": "enderscape:veiled_trapdoor"
+  },
+  "pattern": [
+    "PPP",
+    "T T",
+    "PPP"
+  ],
+  "result": {
+    "id": "enderscapes-delight:veiled_cabinet"
+  }
+}

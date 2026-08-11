@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "experience": 200.0,
+  "ingredients": [
+    "minecraft:sugar",
+    "enderscape:bulb_flower",
+    "enderscape:bulb_flower"
+  ],
+  "recipe_book_tab": "drinks",
+  "result": {
+    "id": "enderscapes-delight:enlightened_punch"
+  }
+}
