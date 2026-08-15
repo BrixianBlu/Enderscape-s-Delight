@@ -3,7 +3,7 @@
   "container": {
     "id": "minecraft:bowl"
   },
-  "experience": 200.0,
+  "experience": 5.0,
   "ingredients": [
     "enderscape:murublight_bracket",
     "enderscape:murublight_bracket"

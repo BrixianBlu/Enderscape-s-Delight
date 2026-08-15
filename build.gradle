@@ -49,9 +49,6 @@ fabricApi {
 }
 
 dependencies {
-	implementation("vectorwing:FarmersDelight:${fdrf_version}") {
-		exclude(group: "net.fabricmc")
-	}
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	//Enderscape
 	implementation "maven.modrinth:btCrWvHr:4DwOA1hE"
@@ -61,6 +58,8 @@ dependencies {
 	implementation "maven.modrinth:bNK1MS7o:VwpMfwIb"
 	//Lithostiched
 	implementation "maven.modrinth:XaDC71GB:vVFCOh7u"
+	//Farmer's Delight
+	implementation "maven.modrinth:7vxePowz:Mzm7vta8"
 	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	// Fabric API. This is technically optional, but you probably want it anyway.

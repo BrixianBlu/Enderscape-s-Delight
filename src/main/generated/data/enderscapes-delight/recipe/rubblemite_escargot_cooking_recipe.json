@@ -3,12 +3,13 @@
   "container": {
     "id": "minecraft:bowl"
   },
-  "experience": 200.0,
+  "experience": 10.0,
   "ingredients": [
     "enderscape:kurodite",
     "minecraft:end_stone",
     "enderscape:veradite",
-    "enderscape:mirestone"
+    "enderscape:mirestone",
+    "enderscape:rubble_chitin"
   ],
   "recipe_book_tab": "meals",
   "result": {

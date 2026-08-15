@@ -11,9 +11,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.penumbra.enderscape.block.MagniaBlock;
-import net.penumbra.enderscape.block.properties.MagniaPolarity;
-import net.penumbra.enderscape.registry.item.EnderscapeItems;
 import vectorwing.farmersdelight.common.block.FeastBlock;
 import vectorwing.farmersdelight.common.block.PieBlock;
 

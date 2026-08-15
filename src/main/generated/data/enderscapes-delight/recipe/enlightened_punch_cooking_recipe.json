@@ -1,9 +1,9 @@
 {
   "type": "farmersdelight:cooking",
   "container": {
-    "id": "minecraft:bowl"
+    "id": "minecraft:glass_bottle"
   },
-  "experience": 200.0,
+  "experience": 10.0,
   "ingredients": [
     "minecraft:sugar",
     "enderscape:bulb_flower",

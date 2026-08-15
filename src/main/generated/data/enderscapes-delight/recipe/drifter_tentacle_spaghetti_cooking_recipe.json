@@ -3,12 +3,11 @@
   "container": {
     "id": "minecraft:bowl"
   },
-  "experience": 200.0,
+  "experience": 10.0,
   "ingredients": [
     "farmersdelight:tomato",
     "enderscapes-delight:drifter_tentacles",
-    "enderscape:murublight_bracket",
-    "enderscapes-delight:drifter_tentacles"
+    "enderscape:murublight_bracket"
   ],
   "recipe_book_tab": "meals",
   "result": {

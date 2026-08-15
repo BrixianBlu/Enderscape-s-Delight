@@ -35,8 +35,8 @@ public class EnderscapeDelightItems {
     public static final Item ENDER_ESCAPE = registerItem("ender_escape", settings -> new Item(settings.food(EnderscapeDelightFood.ENDER_ESCAPE).stacksTo(16).usingConvertsTo(Items.BOWL)));
     public static final Item STUFFED_FLANGER_BERRY = registerItem("stuffed_flanger_berry", settings -> new Item(settings.food(EnderscapeDelightFood.STUFFED_FLANGER_BERRY, EnderscapeDelightFood.STUFFED_FLANGER_BERRY_EFFECT).stacksTo(16).usingConvertsTo(Items.BOWL)));
     public static final Item FLANGER_BERRY_COBBLER_SLICE = registerItem("flanger_berry_cobbler_slice", settings -> new Item(settings.food(EnderscapeDelightFood.FLANGER_BERRY_COBBLER_SLICE, EnderscapeDelightFood.FLANGER_BERRY_COBBLER_EFFECT)));
-    public static final Item BLINKING_PUNCH = registerItem("blinking_punch", settings -> new Item(settings.food(EnderscapeDelightFood.BLINKING_PUNCH, EnderscapeDelightFood.BLINKING_PUNCH_EFFECT)));
-    public static final Item ENLIGHTENED_PUNCH = registerItem("enlightened_punch", settings -> new Item(settings.food(EnderscapeDelightFood.ENLIGHTENED_PUNCH, EnderscapeDelightFood.ENLIGHTENED_PUNCH_EFFECT)));
+    public static final Item BLINKING_PUNCH = registerItem("blinking_punch", settings -> new Item(settings.food(EnderscapeDelightFood.BLINKING_PUNCH, EnderscapeDelightFood.BLINKING_PUNCH_EFFECT).stacksTo(16).usingConvertsTo(Items.GLASS_BOTTLE)));
+    public static final Item ENLIGHTENED_PUNCH = registerItem("enlightened_punch", settings -> new Item(settings.food(EnderscapeDelightFood.ENLIGHTENED_PUNCH, EnderscapeDelightFood.ENLIGHTENED_PUNCH_EFFECT).stacksTo(16).usingConvertsTo(Items.GLASS_BOTTLE)));
     public static final Item DRIFT_GUMMY = registerItem("drift_gummy", settings -> new Item(settings.food(EnderscapeDelightFood.DRIFT_GUMMY, EnderscapeDelightFood.DRIFT_GUMMY_EFFECT)));
     public static final Item CHORUS_CAKE_ROLL_SLICE = registerItem("chorus_cake_roll_slice", settings -> new Item(settings.food(EnderscapeDelightFood.CHORUS_CAKE_ROLL_SLICE, EnderscapeDelightFood.CHORUS_CAKE_ROLL_EFFECT)));
 
